@@ -1,3 +1,8 @@
+.top{
+    text-align: center;
+    justify-content: center;
+    background-color: turquoise;
+}
 #clockContainer {
     position: relative;
     margin: auto;
@@ -6,7 +11,6 @@
     background: url(clock.png) no-repeat;
     background-size: 100%;
 }
-
 #hour,
 #minutes,
 #second {
@@ -15,7 +19,6 @@
     border-radius: 10px;
     transform-origin: bottom;
 }
-
 #hour {
     width: 2.8%;
     height: 25%;
@@ -23,7 +26,6 @@
     left: 48.74%;
     opacity: 0.8;
 }
-
 #minutes {
     width: 2.0%;
     height: 30%;
@@ -31,7 +33,6 @@
     left: 49.05%;
     opacity: 0.7;
 }
-
 #second {
     width: 1%;
     height: 35%;
@@ -47,9 +48,4 @@
     text-align:center;
     bottom: 0;
     position: fixed;
-}
-#top{
-    text-align: center;
-    justify-content: center;
-    background-color: turquoise;
 }
