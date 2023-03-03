@@ -40,3 +40,11 @@
     opacity: 0.6;
     background-color: rgb(152, 5, 64);
 }
+.copy {
+    background:#E9E9E9;
+    width:100%;
+    padding: 10px;
+    text-align:center;
+    bottom: 0;
+    position: fixed;
+}
